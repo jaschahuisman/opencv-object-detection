@@ -7,7 +7,11 @@ This opencv realtime object detection script is a simple experimental tool to de
 
 ## Installation
 * Make sure to install python 3 or higher on your computer.
-* Setup a virtual environment and install the dependencies (opencv-python & numpy) from requirements.txt
+* Clone this repository on your computer.
+```bash
+$ git clone https://github.com/jaschahuisman/opencv-object-detection.git
+```
+* Setup a virtual environment and install the dependencies (opencv-python & numpy) from requirements.txt.
 ```bash
 python3 -m venv venv
 ```
@@ -25,3 +29,6 @@ net = cv2.dnn.readNet("./weights/[WEIGHT-FILE]", "./configuration/[CONFIG-FILE]"
 ```
 
 * [Download Yolov3 Models](https://drive.google.com/drive/folders/1LezFG5g3BCW6iYaV89B2i64cqEUZD7e0)
+
+Enjoy playing with the models, happy coding!
+
